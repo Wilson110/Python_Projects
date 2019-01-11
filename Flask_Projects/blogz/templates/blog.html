@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Blogz</h1>
+
+    {% if posts|length == 0 %}
+    <p>No blogs yet</p>
+    {% else %}
+    <ul>
+        {% for post in posts %}
+        <li><a href="{{url_for('blog', id=post.id)}}">{{post.title}}</a>
+            By: <a href="{{url_for('blog', user=post.owner.id)}}">{{post.owner.username}}</a>
+            <ul>
+                <li class="">{{post.body}}</li>
+            </ul>
+        </li>
+        <hr/>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+{% endblock %}
