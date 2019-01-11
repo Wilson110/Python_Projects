@@ -5,6 +5,7 @@ A collection of program built using the Flask framework
 
 ## Contents
 * **main**: a test Hello World app
+* **get-it-done**: a task list app
 * **user_signup**: a flask form with user validation
 * **blogz**: a crud app that posts blog entries
 * **build-a-blog**: the final stage of blogz, includes CMS, validation, and multi-user functionality
