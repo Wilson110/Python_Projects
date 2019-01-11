@@ -4,10 +4,10 @@
 A collection of program built using the Flask framework
 
 ## Contents
-* main: a test Hello World app
-* user_signup: a flask form with user validation
-* blogz: a crud app that posts blog entries
-* build-a-blog: the final stage of blogz, includes CMS, validation, and multi-user functionality
+* **main**: a test Hello World app
+* **user_signup**: a flask form with user validation
+* **blogz**: a crud app that posts blog entries
+* **build-a-blog**: the final stage of blogz, includes CMS, validation, and multi-user functionality
 
 ## Requirements
 * Text code editor
