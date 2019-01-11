@@ -7,8 +7,8 @@ A collection of program built using the Flask framework
 * **main**: a test Hello World app
 * **get-it-done**: a task list app
 * **user_signup**: a flask form with user validation
-* **blogz**: a crud app that posts blog entries
-* **build-a-blog**: the final stage of blogz, includes CMS, validation, and multi-user functionality
+* **blogz**: a multi-user crud CMS app that posts blog entries, user validation, and posting functionality
+* **build-a-blog**: an app that posts blog entries
 
 ## Requirements
 * Text code editor
